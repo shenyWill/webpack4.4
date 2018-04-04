@@ -1,0 +1,24 @@
+/*! author:shenyuan,date:2018-04-04 */
+body {
+  background: #9acd32;
+}
+
+.box {
+  width: 811px;
+  height: 812px;
+  background: url(http://192.168.8.172:80/images/7c62d84566c3195d8386fff7b433d012.jpg);
+  -webkit-transform: rotate(12deg);
+  transform: rotate(12deg);
+}
+
+body {
+  color: wheat;
+}
+
+.sass {
+  width: 200px;
+  height: 200px;
+  background: gray;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

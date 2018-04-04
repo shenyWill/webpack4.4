@@ -1,0 +1,43 @@
+{
+  "name": "webpack-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "server": "webpack-dev-server",
+    "dev": "rm -rf dist & set type=dev&webpack --mode development --watch",
+    "build": "rm -rf build &set type=build&webpack --mode production"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "keywords": [],
+  "author": "shenyuan",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.1.0",
+    "html-withimg-loader": "^0.1.16",
+    "node-sass": "^4.8.3",
+    "purify-css": "^1.2.5",
+    "purifycss-webpack": "^0.7.0",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
