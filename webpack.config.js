@@ -35,7 +35,7 @@ if (process.env.type == "dev") {
     var pathUrl = path.resolve(__dirname, 'dist');
 } else {
     var website = {
-        publicPath: 'http://192.168.8.172:80/'
+        publicPath: 'http://192.168.127.1:80/'
     }
     var pathUrl = path.resolve(__dirname, 'build');
 }
@@ -70,7 +70,7 @@ const webpack_config = {
 
     devServer: {
         contentBase: path.resolve(__dirname, 'dist'),
-        host: '192.168.8.172',
+        host: '192.168.127.1',
         compress: true, // 配置服务器压缩
         port: 80
     },
